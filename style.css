@@ -1,0 +1,77 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+ 
+#hero{
+    background-image: url("https://www.thebalancemoney.com/thmb/Ci8l5i-cl3_emjyarN7RVunlULo=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/enjoying-his-studies-484286872-735782e8d2144f7496bf9b947bcc1a56.jpg");
+    background-size: cover;
+    height: 800px;
+    color: white;
+    text-align: center;
+    background-repeat: no-repeat;
+}
+
+section div{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    opacity: .7;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1{
+    font-size: 60px;
+}
+
+section p {
+    /* margin-top: 25px;
+    margin-bottom: 25px; */
+    margin: 25px 0;
+    font-size: 30px;
+}
+
+button{
+     border: 0;
+     padding: 10px 30px;
+     font-size: 20px;
+}
+
+#section-2{
+    padding: 100px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.bg-dark{
+    background-color: black;
+}
+
+.text-white{
+    color: white;
+}
+
+#section-2 p{
+     width: 80%;
+     text-align: center;
+}
+
+#section-3{
+    background-color: bisque;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#section-3 h1{
+    font-size: 90px;
+    text-align: center;
+}

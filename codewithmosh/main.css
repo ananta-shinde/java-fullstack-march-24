@@ -1,0 +1,162 @@
+
+body{
+    background-color: black;
+    color: white;
+}
+
+#hero .container {
+    height: 500px;
+}
+
+
+.container{
+    padding: 0 10%;
+    display: flex;
+    align-items: center;
+}
+
+.btn{
+    height: 40px;
+    padding: 10px 30px;
+    font-size: 18px;
+    border-radius: 15px;
+    border: 0;
+    background-color: blueviolet;
+    color:white;
+}
+
+.nav-list{
+    margin-left: auto;
+    list-style-type: none;
+    display: flex;
+}
+
+.nav-item{
+    margin-right: 20px;
+    font-size: 16px;
+}
+
+#hero h1{
+    font-size: 40px;
+    width: 50%;
+}
+
+#hero p{
+     font-size: 20px;
+}
+
+.text-green{
+    color: greenyellow;
+}
+
+.text-pink{
+    color: palevioletred;
+}
+
+.text-muted{
+    color: slategray;
+}
+
+#intro{
+    text-align: center;
+}
+
+#intro h6 {
+    font-size: 18px;
+}
+
+#intro h3{
+    font-size: 30px;
+}
+
+#intro img{
+    width: 50%;
+    margin: 50px 0;
+}
+
+#intro p{
+    width: 50%;
+    margin: auto;
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+#intro .card{
+     width: 200px;
+     height: 200px;
+     background-color: blueviolet;
+}
+
+#intro .card-container{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+}
+
+#intro .card h1{
+    font-size: 40px;
+}
+
+
+#features img{
+    width: 50%;
+    margin: 50px 0;
+}
+
+#features {
+    text-align: center;
+}
+
+#features h6{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+#features p{
+    font-size: 20px;
+    line-height: 1.2;
+}
+
+#features h3{
+    font-size: 30px;
+}
+
+.group-container{
+    display: flex;
+    align-items: center;
+}
+
+#courses {
+    text-align: center;
+}
+
+#courses h6{
+    margin-bottom: 0;
+    font-size: 20px;
+}
+
+#courses p{
+    font-size: 20px;
+    line-height: 1.2;
+    width: 75%;
+    margin: auto;
+}
+
+#courses h3{
+    font-size: 30px;
+}
+
+#courses .card{
+    margin-bottom :50px; 
+    height: 400px;
+    width: 300px;
+    border: 1px solid wheat;
+}
+
+#courses .card-container{
+    padding: 10%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}

@@ -1,0 +1,16 @@
+
+.container{
+     border: 2px solid;
+     height: 500px;
+     display: flex;
+     justify-content: space-evenly;
+     align-items: center;    
+}
+
+.items{
+     background-color: brown;
+     height: 200px;
+     width:200px;
+}
+
+ 
