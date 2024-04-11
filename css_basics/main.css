@@ -1,0 +1,115 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+.container{
+    padding: 0 100px ;
+}
+
+.container-fluid{
+    width: 100%;
+}
+
+#hero{
+    background-color: aquamarine;
+    min-height: 400px;
+     
+}
+#services{
+    background-color: bisque;
+    height: 200px;
+}
+
+.border-1{
+    border: 1px solid black;
+}
+
+.col{
+    flex: 1;
+}
+
+.col-1{
+  width: 8.33333333333%;
+}
+
+.col-2{
+    width: 16.6666666667%;
+}
+
+.col-3{
+  width: 25%;
+}
+
+.col-4{
+  width: 33.3333333333%;
+}
+
+.col-6{
+   width: 50%;
+}
+
+.col-8{
+    width: 66.6666666667%;
+}
+
+.col-9{
+    width: 75%;
+}
+
+.col-10{
+    width:83.3333333333%
+}
+
+.col-11{
+    width:91.6666666667%
+}
+
+.col-12{
+    width: 100%;
+}
+
+.row{
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+}
+
+.display-6{
+    font-size: 25px;
+    font-weight: 400;
+}
+.display-5{
+    font-size: 35px;
+    font-weight: 400;
+}
+.display-1{
+    font-size: 60px;
+    font-weight: 400;
+}
+
+.intro{
+    font-size: 18px;
+    color: slategrey;
+}
+
+
+.btn{
+    border: 0;
+    font-size: 18px;
+    padding: 15px 40px;
+}
+
+.btn-success{
+     background-color: darkgreen;
+     color:white;
+}
+.btn-primary{
+     background-color: blue;
+     color:white;
+}
+
+.img-fluid{
+    width: 100%;
+}
