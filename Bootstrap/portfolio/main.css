@@ -1,0 +1,31 @@
+
+.bg-light-pink{
+    background-color: #ede8f5;
+}
+
+.text-primary-blue{
+    color: #3d52A0;
+}
+.text-secondary-gray{
+    color: #8697C4;
+}
+
+body{
+    
+}
+
+#navbar{
+    border-bottom:1px solid black ;
+}
+
+#hero{
+    height: 75vh;
+    margin-top: -100px;
+    padding-top: 150px;
+}
+
+#work{
+    background-color: #ADBBDA;
+    height: 500px;
+    padding :100px 0;
+}
