@@ -1,5 +1,5 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const Signup = () => {
     // var name = "";
@@ -14,6 +14,7 @@ const Signup = () => {
 
     // var error = ""
     const [error, setError] = useState("")
+    const navigate = useNavigate()
 
     function handleSubmit(event)
     {
@@ -36,6 +37,8 @@ const Signup = () => {
             }).then(res=>res.json())
             .then(data=>{
                 console.log(data)
+                localStorage.setItem("user",JSON.stringify(data))
+                navigate("/")
             })
         }
         console.log("form submitted")

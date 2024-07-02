@@ -11,6 +11,18 @@
       "name": "Ram",
       "email": "ananatashinde297@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": "0037",
+      "name": "Ananta Shinde",
+      "email": "ananta@example.com",
+      "password": "123456"
+    },
+    {
+      "id": "6ce7",
+      "name": "Admin",
+      "email": "admin@example.com",
+      "password": "123456"
     }
   ]
 }
