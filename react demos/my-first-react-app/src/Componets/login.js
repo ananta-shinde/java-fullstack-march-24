@@ -34,11 +34,10 @@ const Login = () => {
                     <form onSubmit={hadnleSubmit}>
                         {error != "" && <div className="alert alert-danger">{error}</div>}
                         <div className="form-group mt-4">
-                            
                             <input type="text" className="form-control" placeholder="Username/email" onChange={(e)=>{setEmail(e.target.value)}}/>
                         </div>
                         <div className="form-group mt-4">
-                           
+
                             <input type="password" className="form-control" placeholder="Password" onChange={(e)=>{setPassword(e.target.value)}}/>
                             <Link className="mt-2">forgot password?</Link>
                         </div>
