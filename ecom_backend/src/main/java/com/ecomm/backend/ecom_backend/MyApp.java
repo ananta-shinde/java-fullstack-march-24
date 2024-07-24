@@ -11,30 +11,18 @@ import org.springframework.web.bind.annotation.RequestParam;
 @SpringBootApplication
 @RestController
 public class MyApp{
-	@Autowired
-	private UserRepository userRepo;
+	
 	public static void main(String[] args) {
 		System.out.println("Hello world");
 		SpringApplication.run(MyApp.class, args);
 
 	}
-    @GetMapping("/home")
-	public String myhome(){
 
-		User newUser = new User();
-		newUser.setName("Ananta");
-		newUser.setEmail("demo@example.com");
-		newUser.setPassword("123456");
-        userRepo.save(newUser);
-		return String.format("Hello home");
+	@GetMapping("/home")
+	public String getWelcomeMessage()
+	{
+		return "welcome to spring";
 	}
-
-	
-	@GetMapping("/users")
-	public String getUsers(){
-		Iterable<User> users = userRepo.findAll();
-
-		return users.toString();
-	}
+   
 }
  
