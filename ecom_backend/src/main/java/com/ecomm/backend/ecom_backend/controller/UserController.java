@@ -1,6 +1,7 @@
 package com.ecomm.backend.ecom_backend.controller;
 
 import java.util.ArrayList;
+import java.util.List;
 import java.util.Optional;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -35,6 +36,12 @@ public class UserController {
     public User createUser(@RequestBody User u){
         u= repository.save(u);
         return u;
+    }
+
+    @PostMapping("/users/list")
+    public List<User> createUser(@RequestBody List<UserFilterDTO> filterList){
+        
+        return repository.findAll(UserSpecification.getUserSpecification(filterList));
     }
 
     @PutMapping("users/{id}")

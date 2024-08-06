@@ -8,13 +8,13 @@ import jakarta.persistence.Id;
 @Entity(name="Users")
 public class User {
     @Id
-    private int id;
+    private Integer id;
     private String name;
     private String email;
     private String password;
     private String contact;
     private String alternate_contact;
-    private int address_id;
+    private Integer address_id;
     private String profile_picture;
     private Boolean is_Active;
     private Date date_created;
